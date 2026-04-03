@@ -56,7 +56,7 @@ You can schedule the script (`organizer.py`) to run automatically on your **Down
    ```
 4. Add arguments:  
    ```bash
-   C:\path\to\organizer.py
+   C:\path\to\automate_downloads.py
    ```
 5. Set trigger: *Daily* or *At logon*.
 6. Save → Your Downloads folder will be organized automatically.
@@ -73,7 +73,7 @@ You can schedule the script (`organizer.py`) to run automatically on your **Down
    ```
 3. Add:
    ```bash
-   0 * * * * python3 /path/to/organizer.py /Users/<username>/Downloads
+   0 * * * * python3 /path/to/automate_downloads.py /Users/<username>/Downloads
    ```
    (Runs every hour)
 
@@ -91,7 +91,7 @@ You can schedule the script (`organizer.py`) to run automatically on your **Down
    ```
 3. Add:
    ```bash
-   0 * * * * python3 /home/<username>/auto-file-organizer/organizer.py /home/<username>/Downloads
+   0 * * * * python3 /home/<username>/auto-file-organizer/automate_downloads.py /home/<username>/Downloads
    ```
    (Runs every hour)
 
